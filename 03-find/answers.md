@@ -16,4 +16,4 @@ Answer: `find . -name \.DS_Store -exec rm {} \;`
 
 ### Question 5.
 In the `data/` directory find all of the defined spring dependencies in a pom file.
-find . -name pom.xml -exec grep -i -C 2 'spring' {} \;
+`find . -name pom.xml -exec grep -i -C 2 'spring' {} \;`

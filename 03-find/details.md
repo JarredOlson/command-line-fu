@@ -8,5 +8,5 @@ Being able to locate a file or directory on a filesystem is extremely useful, es
 `find [location] -name [name to match]`
 
 ## Example
-`find . -name \*.java -type f` find all of the files with the extension '.java' under the current '.' directory
-`find /tmp -name backup -type d` find all of the directories with the name 'backup' under the '/tmp' directory
+-`find . -name \*.java -type f` find all of the files with the extension '.java' under the current '.' directory
+-`find /tmp -name backup -type d` find all of the directories with the name 'backup' under the '/tmp' directory
