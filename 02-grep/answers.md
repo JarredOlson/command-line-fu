@@ -1,5 +1,5 @@
 ### Question 1. In the `data/people/people.csv` file how many people have 'Smith' as part of their name?
-Answer. 2 people have the name 'Smith'. `grep 'Smith' data/people/people.csv`.  The basic useage of grep is `grep '[pattern]' [file or directory]`
+Answer. 2 people have the name 'Smith'. `grep 'Smith' data/people/people.csv`.
 
 ### Question 2. In the `data/people/people.csv` file how many people don't have 'Smith' as part of their name?
 Answer. 3 people don't have the name 'Smith'. `grep -v 'Smith' data/people/people.csv`  -v returns everything that does not match the given pattern.
