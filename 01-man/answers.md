@@ -1,2 +1,3 @@
-### Question 1. Look at the man page for the `grep` command
+### Question 1.
+Look at the man page for the `grep` command
 Answer. `man grep`
